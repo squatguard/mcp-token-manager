@@ -1,21 +1,20 @@
 {
-  "name": "mcp-squatguard-template",
-  "version": "0.1.2",
+  "name": "mcp-token-manager",
+  "version": "0.1.0",
   "main": "index.js",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/squatguard/mcp-squatguard-template.git"
+    "url": "git+https://github.com/squatguard/mcp-token-manager.git"
   },
   "publishConfig": {
-    "access": "public",
-    "provenance": true
+    "access": "public"
   },
   "engines": {
     "node": ">=20"
   },
   "bin": {
-    "mcp-squatguard-template": "build_node/index.js"
+    "mcp-token-manager": "build_node/index.js"
   },
   "scripts": {
     "build": "tsc && node -e \"require('fs').chmodSync('build_node/index.js', '755')\""
